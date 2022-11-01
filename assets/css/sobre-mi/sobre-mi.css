@@ -4,14 +4,20 @@
 
 /* Sobre mi contenido */
 
-
 .sobre--mi__contenido {
     display: grid;
-    grid-template-columns: 1fr 0.8fr;
+    grid-template-columns: 1fr ;
     align-items: center;
     gap: 3rem;
 }
 
+
+@media (min-width: 768px) {
+    .sobre--mi__contenido {
+        grid-template-columns: 1fr 0.8fr;
+        align-items: center;
+    }
+}
 /* sobre mi titulo */
 .sobre--mi__titulo {
     text-align: center;

@@ -5,12 +5,12 @@
 }
 
 .sobre--mi__perfil--img {
-    width: 80%;
     border-radius: 100%;
+    width: 20rem;
 }
 
 @media (min-width: 768px) {
     .sobre--mi__perfil--img {
-        width: 50%;
+        width: 25rem;
     }
 }

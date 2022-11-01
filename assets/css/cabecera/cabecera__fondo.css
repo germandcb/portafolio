@@ -1,0 +1,5 @@
+.cabecera__fondo {
+    /* background-image: linear-gradient(45deg, rgb(230, 120, 56) 0%, rgb(221, 243, 123) 100%);
+    background: url(../../img/Fondos/fondo-1.jpg) no-repeat center / cover; */
+    background-color: rgba(0, 0, 0, 0.548);
+}

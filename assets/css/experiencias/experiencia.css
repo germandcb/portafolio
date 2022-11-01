@@ -20,9 +20,13 @@
 .experiencia--blog-cafe {
     background: url(../../img/Fondos/blog-cafe.PNG) no-repeat center / cover;
 }
+
+.experiencia--portafolio {
+    background: url(../../img/Fondos/portafolio.PNG) no-repeat center / cover;
+}
 /* experiencia fondo */
 .experiencia__fondo {
-    background-color: rgba(0, 0, 0, 0.158);
+    background-color: rgba(0, 0, 0, 0.61);
     padding: 6rem 0;
 }
 

@@ -1,0 +1,19 @@
+/* experiencias */
+.experiencias {
+    padding: 6rem 0;
+    background: var(--fondo);
+}
+
+/* experiencias contenedor */
+.experiencias__contenedor {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* experiencias titulo */
+.experiencias__titulo {
+    text-align: center;
+}

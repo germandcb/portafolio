@@ -1,0 +1,93 @@
+
+/* experiencia */
+.experiencia {
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 90%;
+}
+
+@media (min-width: 768px) {
+    .experiencia {
+        width: calc(50% - 4rem);
+    }
+    
+}
+
+.experiencia--encriptador {
+    background: url(../../img/Fondos/encriptador.PNG) no-repeat center / cover;
+}
+
+.experiencia--blog-cafe {
+    background: url(../../img/Fondos/blog-cafe.PNG) no-repeat center / cover;
+}
+/* experiencia fondo */
+.experiencia__fondo {
+    background-color: rgba(0, 0, 0, 0.158);
+    padding: 6rem 0;
+}
+
+/* experiencia nombre */
+.eperiencia__nombre {
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--blanco);
+}
+
+/* experiencia botones */
+.experiencia__botones {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.experiencia__demo,
+.experiencia__repost {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.experiencia__repost {
+    background: var(--primero);
+}
+
+.experiencia__repost::before {
+    content: url(../../img/Icons/min-github.svg);
+}
+
+.experiencia__repost:hover {
+    background: #aa4304;
+    transition: 0.5s;
+    
+}
+
+.experiencia__demo {
+    background: var(--segundo);
+}
+
+.experiencia__demo::before {
+    content: url(../../img/Icons/min-world.svg);
+}
+
+.experiencia__demo:hover {
+    background: #0439ac;
+    transition: 0.5s;
+}
+
+/* experiencia lenguajes */
+.experiencia__lenguajes {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.experiencia__lenguaje--html {
+    background: var(--primero);
+}
+.experiencia__lenguaje--css {
+    background-color: var(--segundo);
+}
+
+.experiencia__lenguaje--js {
+    background: var(--tercero);
+}

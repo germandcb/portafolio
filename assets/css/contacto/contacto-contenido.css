@@ -1,0 +1,58 @@
+/* contacto contenido */
+.contacto__contenido {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .contacto__contenido {
+        grid-template-columns: 1fr 1.5fr;
+    }
+}
+/* contacto img */
+.contacto__img {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .contacto__img {
+        display: inline;
+    }
+}
+/* contacto formulario */
+.contacto__formulario {}
+
+/* contacto formulario  titulo*/
+.contacto__formulario__titulo {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* contacto formulario descipcion */
+.contacto__formulario__descripcion {
+    text-align: center;
+}
+
+/* contacto formulario contenedor */
+.contacto__formulario__contenedor {}
+
+/* campo */
+
+/* campo input */
+.campo-input {
+    background-color: rgba(123, 95, 150, 0.308);
+    border: none;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+/* contacto caja enviar */
+.contacto__caja__enviar {
+    padding-top: 0.8rem;
+    text-align: center;
+}

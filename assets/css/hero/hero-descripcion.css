@@ -1,0 +1,46 @@
+.hero__descripcion {
+    text-align: center;
+}
+
+/* Hero descripcion nombre */
+
+.hero__descripcion__nombre {
+    color: var(--blanco);
+    text-shadow: #8b8686 -6px 0px 0px;
+    font-weight: bold;
+    font-size: 8rem;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .hero__descripcion__nombre {
+        text-shadow: #8b8686 -6px 0px 0px;
+        font-size: 10rem;
+    }
+}
+
+/* hero descricion contenido */
+
+.hero__descripcion__contenido {
+    color: var(--blacoContenido);
+    line-height: 1;
+    font-size: 1.8rem;
+}
+
+@media (min-width: 768px) {
+    .hero__descripcion__contenido {
+        font-size: 2.5rem;
+    }
+}
+
+.hero__descripcion__contenido--import {
+    text-shadow: -2px 0px 1px #8b8686;
+    font-size: 2rem;
+    transition: 1s;
+}
+
+@media (min-width: 768px) {
+    .hero__descripcion__contenido--import {
+        font-size: 3rem;
+    }
+}

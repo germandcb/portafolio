@@ -1,0 +1,16 @@
+
+.sobre--mi__perfil {
+    display: flex;
+    justify-content: center;
+}
+
+.sobre--mi__perfil--img {
+    width: 80%;
+    border-radius: 100%;
+}
+
+@media (min-width: 768px) {
+    .sobre--mi__perfil--img {
+        width: 50%;
+    }
+}

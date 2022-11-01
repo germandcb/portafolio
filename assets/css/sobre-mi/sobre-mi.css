@@ -1,0 +1,18 @@
+.sobre--mi {
+    padding: 6rem 0;
+}
+
+/* Sobre mi contenido */
+
+
+.sobre--mi__contenido {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    align-items: center;
+    gap: 3rem;
+}
+
+/* sobre mi titulo */
+.sobre--mi__titulo {
+    text-align: center;
+}

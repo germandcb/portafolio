@@ -1,0 +1,39 @@
+/* Skills item */
+.skills__item,
+.hobbies__item {
+    align-items: center;
+    background: var(--blanco);
+    box-shadow: 0px 0px 10px 2px rgba(112,112,112,1);
+    border-radius: 10rem;
+    width: 30rem;
+    height: 10rem;
+    display: flex;
+}
+
+/* Skills item svg */
+.hobbies__item__svg,
+.skills__item__svg {
+    margin-right: 1rem;
+    width: 25%;
+    border-radius: 1rem;
+}
+
+.hobbies__item__svg {
+    background-color: rgb(117, 223, 231);
+}
+
+/* Skills item descripcion */
+
+
+/* Skills item descripcion titulo */
+.skills__item__descripcion__titulo,
+.hobbies__item__descripcion__titulo {
+    margin: 0;
+}
+
+/* Skills item descripcion nivel */
+.skills__item__descripcion__nivel,
+.hobbies__item__descripcion__nivel {
+    margin: 0;
+    font-size: 1.8rem;
+}

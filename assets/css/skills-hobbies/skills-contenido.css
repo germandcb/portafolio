@@ -1,0 +1,7 @@
+.skills__contenido,
+.hobbies__contenido {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}

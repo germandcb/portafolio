@@ -1,0 +1,87 @@
+/* formacion contenido */
+.formacion__contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* formacion item */
+.formacion__item {
+    width: 90%;
+    text-align: center;
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+}
+
+@media (min-width: 768px) {
+    .formacion__item {
+        width: 38rem;
+    }
+}
+/* formacion fondo */
+.formacion__fondo {
+    align-items: end;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    height: 20rem;
+    width: 100%;
+}
+
+.formacion__fondo--sena {
+    background: url(../../img/Fondos/sena.jpg) no-repeat center / cover;
+}
+
+.formacion__fondo--san-mateo {
+    background: url(../../img/Fondos/sanmateo.png) no-repeat;
+}
+
+.formacion__fondo--alura {
+    background: url(../../img/Fondos/alura-latam.jpg) no-repeat center / cover;
+}
+/* formacion fondo logo */
+.formacion__fondo__logo {
+    border-radius: 2rem;
+    background-color: var(--blanco);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    margin-bottom: -5rem;
+    padding: 1rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+.formacion__fondo__logo--alura,
+.formacion__fondo__logo--oracle {
+    width: 12rem;
+    height: 8rem;
+}
+
+/* formacion titulo */
+.formacion__titulo--u {
+    margin-top: 6rem;
+}
+
+/* formacion uni */
+.formacion__uni {
+    font-size: 2.4rem;
+}
+
+/* formacion estado */
+.formacion__estado {
+    font-size: 2.2rem;
+}
+
+.formacion__estado--cur,
+.formacion__estado--cul {
+    padding: 1rem;
+    border-radius: 2rem;
+    color: var(--blanco);
+}
+
+.formacion__estado--cur {
+    background-color: var(--primero);
+}
+
+.formacion__estado--cul {
+    background-color: var(--segundo);
+}

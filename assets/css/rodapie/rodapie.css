@@ -1,0 +1,27 @@
+/* rodapie */
+.rodapie {
+    background-color: var(--fondo2);
+    height: 8rem;
+    display: flex;
+}
+
+/* rodapie contenedor */
+.rodapie__contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+/* rodapie descripcion */
+.rodapie__descripcion {
+    color: var(--blanco);
+    font-size: 2rem;
+}
+
+/* rodapie descripcion nombre */
+.rodapie__descripcion--nombre {
+    color: var(--negro);
+}
+
+.rodapie__descripcion--nombre:hover {
+    color: var(--tercero);
+}

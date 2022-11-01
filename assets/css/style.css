@@ -1,0 +1,103 @@
+:root {
+    --fuentePrincipal: 'Noto Sans Mono', monospace;
+
+    --primero: #f46004;
+    --segundo: #0450f4;
+    --tercero: #e9cc27;
+    --gris: #E1E1E1;
+    --verde: #15ff7e;
+    --blanco: #ffffff;
+    --blacoContenido: #ebe7e7;
+    --negro: #000000;
+    --fondo: #1e4ea736;
+    --fondo1: #000000e7;
+    --fondo2: rgb(35, 161, 113);
+
+    --html: #d48553c7;
+    --css: #5360d4c7;
+    --js: #d4b653c7;
+    --git: #d45c53c7;
+    --sql: #53b6d4c7;
+    --w: #3d7bccc7;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* Globales */
+.contenedor {
+    width: min(95%, 120rem);
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+h1,h2,h3,h4 {
+    font-family: var(--fuentePrincipal);
+    line-height: 1.2;
+}
+h1 {
+    font-size: 4.8rem;
+}
+h2 {
+    font-size: 4rem;
+    margin-top: 0;
+}
+h3 {
+    font-size: 3.2rem;
+}
+h4 {
+    font-size: 2.8rem;
+}
+img {
+    max-width: 100%;
+}
+
+fieldset {
+    border: none;
+}
+/* Utilidades */
+.no-margin {
+    margin: 0;
+}
+.no-padding {
+    padding: 0;
+}
+.centrar-texto {
+    text-align: center;
+}
+
+.html {
+    background-color: var(--html);
+}
+
+.css {
+    background-color: var(--css);
+}
+
+.js {
+    background-color: var(--js);
+}
+
+.git {
+    background-color: var(--git);
+}
+
+.sql {
+    background-color: var(--sql);
+}
+
+.w {
+    background-color: var(--w);
+}

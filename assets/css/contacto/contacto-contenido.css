@@ -51,8 +51,34 @@
     width: 100%;
 }
 
+.campo-input:focus{
+    outline: none;
+}
+
+/* campo input error*/
+.campo-input--error .campo-input{
+    background-color: rgba(206, 130, 130, 0.308);
+    border: 1px solid var(--wargin);
+}
+.campo-input--error .campo-input::placeholder {
+    color: var(--wargin);
+}
+
+/* campo input mesaje error*/
+.campo-input-mensaje-error {
+    display: none;
+}
+
+.campo-input--error .campo-input-mensaje-error {
+    margin-left: 1rem;
+    display: block;
+    color: var(--wargin);
+}
+
+
 /* contacto caja enviar */
 .contacto__caja__enviar {
     padding-top: 0.8rem;
     text-align: center;
 }
+

@@ -12,10 +12,6 @@
     />
     <link rel="stylesheet" href="./assets/css/normalize.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="./assets/css/cabecera/cabecera-contenido.css"
-    />
     <link rel="stylesheet" href="./assets/css/normalize.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/cabecera/cabecera.css" />
@@ -335,16 +331,20 @@
                   <p class="contacto__formulario__descripcion">Rellene el siguiente formulario para contactarme</p>
                   <di class="contacto__formulario__contenedor">
                     <div class="campo">
-                      <input type="text" class="campo-input" placeholder="Nombre">
+                      <input id="nombre" type="text" class="campo-input " placeholder="Nombre" required maxlength="50" data-tipo="nombre">
+                      <span class="campo-input-mensaje-error">Este campo no es valido</span>
                     </div>
                     <div class="campo">
-                      <input type="email" class="campo-input" placeholder="email">
+                      <input id="email" type="email" class="campo-input" placeholder="email" required data-tipo="email">
+                      <span class="campo-input-mensaje-error">Este campo no es valido</span>
                     </div>
                     <div class="campo">
-                      <input type="text" class="campo-input" placeholder="Asunto">
-                    </div>
+                      <input id="asunto" type="text" class="campo-input" placeholder="Asunto" required data-tipo="asunto">
+                      <span class="campo-input-mensaje-error">Este campo no es valido</span>
+                    </div> 
                     <div class="campo">
-                      <textarea class="campo-input" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                      <textarea class="campo-input" name="" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required maxlength="300" minlength="10" data-tipo="mensaje"></textarea>
+                      <span class="campo-input-mensaje-error">Este campo no es valido</span>
                     </div>
                   </di>
                   <div class="contacto__caja__enviar">
@@ -365,7 +365,7 @@
           <span><a class="rodapie__descripcion--nombre" href="https://github.com/germandcb" target="_blank">German Celis</a></span> 2022 
         </p>
       </div>
-
     </footer>
+    <script src="./assets/js/app.js" type="module"></script>
   </body>
 </html>

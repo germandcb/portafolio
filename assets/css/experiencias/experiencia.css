@@ -31,6 +31,10 @@
 .experiencia--vaccination {
     background: url(../../img/Fondos/vaccination.PNG) no-repeat center / cover;
 }
+
+.experiencia--alura-geek {
+    background: url(../../img/Fondos/alura-geek.PNG) no-repeat center / cover;
+}
 /* experiencia fondo */
 .experiencia__fondo {
     background-color: rgba(0, 0, 0, 0.61);

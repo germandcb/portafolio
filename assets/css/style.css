@@ -103,3 +103,13 @@ fieldset {
 .w {
     background-color: var(--w);
 }
+.culminado {
+    background-color: #16c01e;
+}
+.construcion,
+.culminado {
+    margin: 0 25%;
+}
+.construcion {
+    background-color: #e61c1c;
+}
